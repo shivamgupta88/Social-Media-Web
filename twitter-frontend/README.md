@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Twitter Clone Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the README for the Twitter Clone project built using the MERN stack (MongoDB, Express, React, and Node.js). This project aims to replicate the basic functionalities of Twitter, allowing users to post, interact, and engage with content in a simplified version of the popular social media platform.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Before you begin, ensure you have the following installed on your system:
+- Node.js and npm (Node Package Manager)
+- MongoDB (Ensure it's running on the default port)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Setup Instructions
 
-### `npm test`
+The project is divided into two main parts: the frontend and the backend. You will need to set up both parts to run the application successfully.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Frontend Setup
 
-### `npm run build`
+To set up and run the frontend part of the project, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Open a terminal.
+2. Navigate to the `twitter-frontend` directory:
+```bash
+cd twitter-frontend
+npm i
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+After running the above commands, the frontend should now be running on http://localhost:3000.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Backend Setup
+To set up and run the backend part of the project, follow these steps:
 
-### `npm run eject`
+Open another terminal.
+Navigate to the twitter-backend directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd twitter-backend
+npm i
+node index.js
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The backend server will start, and you should see a message indicating it is running and connected to MongoDB.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Usage
+With both the frontend and backend running, you can now access the Twitter Clone application in your web browser at http://localhost:3000. You can create posts, view them, and interact with the application as intended.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Support
+For any queries please connect with me on Linkedin : https://www.linkedin.com/in/shivam5354/
 
-## Learn More
+Thank you for checking out our Twitter Clone project. We hope you find it informative and enjoyable to use!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
