@@ -1,4 +1,5 @@
-# Twitter Clone Project
+# Social Media App
+
 
 Welcome to the README for the Twitter Clone project built using the MERN stack (MongoDB, Express, React, and Node.js). This project aims to replicate the basic functionalities of Twitter, allowing users to post, interact, and engage with content in a simplified version of the popular social media platform.
 
